@@ -43,6 +43,6 @@ mt_srand((double)microtime()*1000000);
 $rand = mt_rand(0, $i); 
 // $i was incremented as we went along
  
-header('Location: '.$folder.$files[$rand]); 
+header('Location: '.$folder/.$files[$rand]); 
 // Voila!	
 ?>
